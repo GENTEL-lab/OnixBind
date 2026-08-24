@@ -1,4 +1,4 @@
-# OnixBind: **Inference-only protein-ligand binding affinity prediction**
+# OnixBind: **Aligning co-folding models to experimental fitness**
 
 ![OnixBind overview](assets/OnixBind.png)
 
