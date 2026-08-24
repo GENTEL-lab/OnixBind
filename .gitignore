@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.so
+!runtime/alphafold3/cpp.cpython-311-x86_64-linux-gnu.so
+.pytest_cache/
+output/
+.DS_Store
+
+# distributed separately, see docs/installation.md
+src/weights/*.pt
+runtime/alphafold3/constants/converters/ccd.pickle
+
+# compiled on first use
+src/onixbind/openfold/utils/layer_norm/build.ninja
+src/onixbind/openfold/utils/layer_norm/.ninja*
+src/onixbind/openfold/utils/layer_norm/*.o
+
+# editors / build / notebooks
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+*.log

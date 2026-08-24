@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "logical_state_sha256": "b32569eb45aea2a0cca4c637f18ff71d9b283494ecd92116505cd5724dca84ba",
+  "members": [
+    "head_0",
+    "head_1"
+  ],
+  "package_id": "onixbind",
+  "parameters": 135726550,
+  "sha256": "f81109ca6e6d8525d2f917eca66609bf99e514f8bde93c5b40a54cd33ae93348",
+  "size_bytes": 543613149,
+  "tensors": 1967,
+  "weights": [
+    0.5,
+    0.5
+  ]
+}
