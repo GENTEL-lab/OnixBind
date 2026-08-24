@@ -77,8 +77,6 @@ This will generate predictions for the input file `demo_input.csv`, and the resu
 - This repository uses the [AlphaFold 3](https://github.com/google-deepmind/alphafold3)
   inference data pipeline (feature processing and MSA handling), vendored under
   `runtime/`.
-- [AuroBind](https://github.com/GENTEL-lab/AuroBind) is an earlier version of
-  OnixBind.
 - The implementation of **fast layernorm operators** is inspired by
   [OneFlow](https://github.com/Oneflow-Inc/oneflow) and
   [FastFold](https://github.com/hpcaitech/FastFold), following
