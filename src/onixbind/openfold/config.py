@@ -316,7 +316,6 @@ config = mlc.ConfigDict(
         # OpenBind it correlates 0.846 with the reference's e3 against e0's
         # 0.932, and its output range is compressed (1.59 vs 2.13), so it
         # carries the same upstream residual with less signal to spend on it.
-        # See docs/ENSEMBLE.md.
         "ensemble": {
             "members": ("head_0", "head_1"),
             "weights": (0.5, 0.5),
