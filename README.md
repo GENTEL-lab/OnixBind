@@ -74,6 +74,8 @@ This will generate predictions for the input file `demo_input.csv`, and the resu
 
 ## 3. Acknowledgements
 
+- [AuroBind](https://github.com/GENTEL-lab/AuroBind) is the V1 version of
+  OnixBind.
 - This repository uses the [AlphaFold 3](https://github.com/google-deepmind/alphafold3)
   inference data pipeline (feature processing and MSA handling), vendored under
   `runtime/`.
