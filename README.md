@@ -14,10 +14,10 @@ inputs, and predicts the binding affinity of the complex as a single pX value
 per record, where a higher value means stronger binding.
 
 This repository is inference only: it contains no training code, no optimiser
-state and no dataset tooling. The released model is a two-head ensemble over one
-shared trunk — one trunk and one diffusion pass are run per record, two affinity
-heads are evaluated on the same tensors, and their predictions are averaged. See
-[docs/ENSEMBLE.md](docs/ENSEMBLE.md) for the head selection and benchmark scores.
+state, and no dataset tooling. The released model uses one shared structural
+trunk and diffusion pass with two checkpoint-specific affinity heads. Both heads
+are evaluated on the same structural representations, and their equally weighted
+mean is reported as the final pX prediction.
 
 **An A100 80GB or higher-memory GPU is recommended.**
 
