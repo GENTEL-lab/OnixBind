@@ -1,14 +1,13 @@
 # OnixBind: **Aligning co-folding models to experimental fitness**
-
-![OnixBind overview](assets/OnixBind.png)
-
 <p align="center">
   | <a href="https://drive.google.com/file/d/1g7xs8-Xe-L30iecCbzKxz5WQ3xAKMLYR/view?usp=sharing">OnixBind</a> |
   <a href="https://drive.google.com/file/d/1vV5peOdo3Puqo7JktbbNrI8i5OoqlY8J/view?usp=sharing">OnixBind-Flash</a> |
 </p>
 
-
 ## 1. OnixBind Overview
+![OnixBind overview](assets/OnixBind.png)
+
+
 
 OnixBind takes protein sequences with their MSA and a small molecule as direct
 inputs, and predicts the binding affinity of the complex as a single pX value
